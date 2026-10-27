@@ -1,0 +1,35 @@
+# Machine-specific configuration and credentials
+win-config.bat
+.env
+.env.*
+!.env.example
+*.env
+*.local
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Runtime state and test output
+__pycache__/
+*.py[cod]
+*.log
+*.pid
+*.dmp
+run_pairproxy*
+.venv/
+venv/
+
+# Local packaging and editor files
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
